@@ -37,7 +37,7 @@
 
             const body = { id_token: response.credential };
 
-            fetch('https://restserver-esqueleto.herokuapp.com', {
+            fetch('https://restserver-esqueleto.herokuapp.com/api/auth/google', {
                 method: 'POST',
                 headers: {
                     'Content-Type':'application/json'
